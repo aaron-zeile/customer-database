@@ -1,5 +1,9 @@
 # INTRODUCTION
-This program is a small, customizable customer database with a few different functions to help utilize it. I wrote this program entirely from scratch on Ubuntu for my C language class at UCSC! It uses a hash table to store the customers in the database. Each customer's personal information is stored within a linked list. When the program starts, it will simply prompt the user to type a command. Next, I'll offer a brief description of the program's command functionalities.
+This program is a small, customizable customer database with a few different functions to help utilize it. I wrote this program entirely from scratch on Ubuntu for my C language class at UCSC! It uses a hash table to store the customers in the database. Each customer's personal information is stored within a linked list.
+# FILES
+I included a make file, aptly titled "Makefile" in this repository to help compile the program quickly. The executable will be called "businessdb," so, after compiling the code, the user would type "./businessdb" to run the program. The file "businessdb.c" contains the main function for the program; "businessdb_lib.h" is the header file for the function declarations and "businessdb.c" is the file containing the bodies for each of these functions.
+# COMMAND PROMPT
+By default, the program will prompt the user to input a command. Next, I will offer a brief description of each of these commands.
 # list
 The first command is **list**. Typing "list" will display the entire current state of the database, customer by customer.
 # add
